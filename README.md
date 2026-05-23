@@ -6,7 +6,7 @@ Ce projet d'application Android illustre l'architecture moderne recommandée par
 
 ---
 
-## 🎯 Compétences Visées & Concepts Clés
+## Compétences Visées & Concepts Clés
 
 ### 1. Pourquoi utiliser MVVM plutôt que de tout coder "directement dans l'Activity" ?
 - **Lisibilité & Séparation des responsabilités** : L'Activity ne s'occupe que de l'affichage graphique et de la capture des actions de l'utilisateur. Toute la logique métier, la manipulation des états et l'accès aux données sont externalisés.
@@ -32,7 +32,7 @@ Le `ViewModel` est lié au cycle de vie logique d'un écran. Lors d'une **rotati
 
 ---
 
-## 🏗️ Architecture Globale du Projet
+## Architecture Globale du Projet
 
 ```
 com.example.lab_19_sas_houda
@@ -54,7 +54,7 @@ com.example.lab_19_sas_houda
 
 ---
 
-## 🛠️ Dépendances Utilisées
+## Dépendances Utilisées
 
 Les dépendances configurées dans [build.gradle.kts](app/build.gradle.kts) :
 ```kotlin
@@ -76,7 +76,7 @@ implementation("androidx.cardview:cardview:1.0.0")
 
 ---
 
-## 🧪 Scénarios de Test à Réaliser
+## Scénarios de Test à Réaliser
 
 1. **Test d'insertion simple** :
    - Saisir un titre et une description puis cliquer sur **AJOUTER UNE NOTE**.
