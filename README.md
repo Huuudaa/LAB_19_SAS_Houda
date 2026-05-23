@@ -84,6 +84,9 @@ implementation("androidx.cardview:cardview:1.0.0")
 2. **Test de suppression** :
    - Effectuer un **clic long** sur une note.
    - *Attendu* : La note est supprimée de la base et disparaît de l'écran avec un message toast.
+   - 
+     <img width="178" height="101" alt="image" src="https://github.com/user-attachments/assets/f696097c-7aed-417a-b713-dd33e2079466" />
+
 3. **Test de persistance** :
    - Fermer complètement l'application (tuer la tâche) puis la relancer.
    - *Attendu* : Toutes les notes créées précédemment réapparaissent (sauvegarde SQLite active).
