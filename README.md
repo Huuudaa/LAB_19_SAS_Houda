@@ -2,6 +2,8 @@
 
 Ce projet d'application Android illustre l'architecture moderne recommandée par Google pour la persistance locale et la structuration de code. Il implémente le modèle **MVVM** (Model-View-ViewModel) en combinant **Room Database** (SQLite), le patron de conception **Repository**, des streams réactifs via **LiveData** et un affichage performant à l'aide de **RecyclerView**.
 
+<img width="360" height="786" alt="image" src="https://github.com/user-attachments/assets/77fc792f-f71c-4ced-8f66-7ee0f32ddc81" />
+
 ---
 
 ## 🎯 Compétences Visées & Concepts Clés
